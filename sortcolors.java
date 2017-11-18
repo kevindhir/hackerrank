@@ -19,6 +19,9 @@ class Solution {
                 case 2: 
                     numBlue++;
                     break;
+                default:
+                    //error handle here, unsupported color 
+                    return;
             }
         }
         int j = 0;
