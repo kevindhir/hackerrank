@@ -2,6 +2,17 @@
 
 class Solution {
   
+  //counting squares with a for loop
+  //
+    
+  //private static int countSquares(int n){
+  //  int output = 0;
+  //  for(int i = n; n > 0; n--){
+  //     output += n*n;
+  // }
+  // return output;
+  //}
+  
   
   private static int countSquares(int n, HashMap<Integer, Integer> map){
     if(n < 0){
